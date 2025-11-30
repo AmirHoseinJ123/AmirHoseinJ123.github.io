@@ -2,6 +2,10 @@
     height: 100vh;
 } */
 
+body{
+    background-color: #F7F7F7;
+}
+
 .nav{
     height: 50px
 }
@@ -9,4 +13,29 @@
 .icon_1{
     width: 30px;
     height: 30px;
+}
+
+.product_img{
+    height: 166px;
+}
+
+.product_box1{
+    height: 168px;
+}
+
+.product1{
+    width: calc(50% - 8px);
+    height: 165px;
+}
+.product2{
+    width: calc(50% - 8px);
+    height: 165px;
+}
+.product3{
+    width: calc(50% - 8px);
+    height: 165px;  
+}
+.product4{
+    width: calc(50% - 8px);
+    height: 165px;
 }
