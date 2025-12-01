@@ -1,10 +1,6 @@
-/* .parent{
-    height: 100vh;
-} */
 
 body{
     background-color: #F7F7F7 !important;
-    height: 100000px;
 }
 
 .nav{
@@ -32,9 +28,7 @@ body{
     width: calc(50% - 8px);
     height: 165px;
 }
-/* .product1 img{
-    width: calc(25% - 10px);
-} */
+
 .product2{
     width: calc(50% - 8px);
     height: 165px;
@@ -48,6 +42,42 @@ body{
     height: 165px;
 }
 
-.explore_row{
+.explore_parent{
     background-color: white;
+}
+
+.support_container{
+    background-color: white;
+}
+
+.footer_container{
+    background-color: #191919;
+}
+
+.footer_col1 h6{
+    color: white;
+}
+
+.footer_col1 p{
+    color: white;
+}
+
+.footer_col2 h6{
+    color: white;
+}
+
+.footer_col2 p{
+    color: white;
+}
+
+.btn_footer{
+    background-color: #191919;
+}
+
+.last_footer_p{
+    color: gray;
+}
+
+.footer_hr{
+    color: #2A2A2A;
 }
