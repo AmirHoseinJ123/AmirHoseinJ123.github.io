@@ -3,7 +3,8 @@
 } */
 
 body{
-    background-color: #F7F7F7;
+    background-color: #F7F7F7 !important;
+    height: 100000px;
 }
 
 .nav{
@@ -13,6 +14,10 @@ body{
 .icon_1{
     width: 30px;
     height: 30px;
+}
+
+.products_row{
+    background-color: white;
 }
 
 .product_img{
@@ -27,6 +32,9 @@ body{
     width: calc(50% - 8px);
     height: 165px;
 }
+/* .product1 img{
+    width: calc(25% - 10px);
+} */
 .product2{
     width: calc(50% - 8px);
     height: 165px;
@@ -38,4 +46,8 @@ body{
 .product4{
     width: calc(50% - 8px);
     height: 165px;
+}
+
+.explore_row{
+    background-color: white;
 }
