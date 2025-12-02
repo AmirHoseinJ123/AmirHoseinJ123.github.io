@@ -51,22 +51,14 @@ body{
 }
 
 .footer_container{
-    background-color: #191919;
+    background-color: #191919 !important;
 }
 
-.footer_col1 h6{
+.footer_col h6{
     color: white;
 }
 
-.footer_col1 p{
-    color: white;
-}
-
-.footer_col2 h6{
-    color: white;
-}
-
-.footer_col2 p{
+.footer_col p{
     color: white;
 }
 
