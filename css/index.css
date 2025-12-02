@@ -81,3 +81,7 @@ body{
 .footer_hr{
     color: #2A2A2A;
 }
+
+#carousel_1 img{
+    height: 240px;
+}
