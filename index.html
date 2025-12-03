@@ -12,13 +12,15 @@
 </head>
 
 <body>
-    <div class="nav w-100 bg-light position-fixed top-0 z-3 d-flex justify-content-between align-items-center">
+    <div class="nav w-100 position-fixed top-0 z-3 d-flex justify-content-between align-items-center">
         <img class="icon_1 ms-3" src="images/1.png">
         <ul class="d-none d-lg-flex flex-row justify-content-center align-items-center mb-0 ps-0">
             <li class="list-unstyled mx-3"><a href="#" class="text-decoration-none text-black">Mobile</a></li>
             <li class="list-unstyled mx-3"><a href="#" class="text-decoration-none text-black">Wearables</a></li>
             <li class="list-unstyled mx-3"><a href="#" class="text-decoration-none text-black">Smart Home</a></li>
             <li class="list-unstyled mx-3"><a href="#" class="text-decoration-none text-black">Lifestyle</a></li>
+        </ul>
+        <ul class="d-none d-lg-flex flex-row justify-content-center align-items-center mb-0 ps-0">
             <li class="list-unstyled ms-3 me-2"><a href="#" class="text-decoration-none text-black">POCO</a></li>
             <li class="list-unstyled mx-2"><a href="#" class="text-decoration-none text-black">Discover</a></li>
             <li class="list-unstyled mx-2"><a href="#" class="text-decoration-none text-black">Support</a></li>
@@ -27,7 +29,7 @@
         <div class="icons1">
             <i class="bi bi-search me-3"></i>
             <i class="bi bi-list me-3 d-lg-none"></i>
-            <i class="bi bi-person me-3"></i>
+            <i class="bi bi-person me-3 d-none"></i>
         </div>
     </div>
 
@@ -41,57 +43,115 @@
         </div>
         <div class="carousel-inner mt-5 d-flex justify-content-start align-items-center">
             <div class="carousel-item carousel-item-1 active">
-                <img src="images/crousel_1_1.webp" class="d-block w-100">
-                <div class="carousel-caption w-50 d-flex flex-column align-items-start">
-                    <img class="w-50 h-50 align-self-start" src="images/carousel_p_1.svg">
-                    <p class="fs-6 text-start align-self-start">Leica 5x Pro telephoto, Spotlight Photography
+                <img src="images/crousel_1_101.jpg" class="d-block crousel_imgs d-md-none">
+                <img src="images/crousel_1_1.webp" class="d-none d-md-block crousel_imgs2">
+                <div class="carousel-caption w-50 h-50 d-flex d-md-none flex-column top-0 start-50 translate-middle-x">
+                    <img class="img-fluid" src="images/carousel_p_1.svg">
+                    <p class="fs-6 text-center text-md-start">Leica 5x Pro telephoto, Spotlight Photography
                         Leica Summilux optical lens</p>
-                    <div class="learn_more text-black rounded-2 d-none d-md-block m-2 fs-6 d-flex align-items-center">Learn more</div>
+                    <div
+                        class="learn_more rounded-2 d-block m-2 fs-6 d-flex align-items-center justify-content-center align-self-center">
+                        <p class="text-black text-center m-0 p-2">Learn more</p>
+                    </div>
+                </div>
+                <div class="carousel-caption w-25 h-25 d-md-flex d-none mt-5 flex-column top-0 start-25">
+                    <img class="img-fluid" src="images/carousel_p_1.svg">
+                    <p class="fs-6 text-center text-md-start">Leica 5x Pro telephoto, Spotlight Photography
+                        Leica Summilux optical lens</p>
+                    <div
+                        class="learn_more rounded-2 d-block m-2 fs-6 d-flex align-items-center justify-content-center align-self-start">
+                        <p class="text-black text-center m-0 p-2">Learn more</p>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item carousel-item-2">
-                <img src="images/crousel_1_2.webp" class="d-block w-100">
-                <div class="carousel-caption d-flex flex-column align-items-start">
-                    <img class="w-50 h-50" src="images/carousel_p_2.svg">
-                    <h6 class="fs-6 text-start mt-3">UltraPower Ascended</h6>
-                    <p class="fs-6 text-start">Snapdragon 8 Elite family chipsets
+                <img src="images/crousel_1_202.jpg" class="d-block crousel_imgs d-md-none">
+                <img src="images/crousel_1_2.webp" class="d-none d-md-block crousel_imgs2">
+                <div class="carousel-caption w-50 h-50 d-flex d-md-none flex-column top-0 start-50 translate-middle-x">
+                    <img class="img-fluid" src="images/carousel_p_2.svg">
+                    <h6 class="fs-6 text-center text-md-start mt-3">UltraPower Ascended</h6>
+                    <p class="fs-6 text-center text-md-start">Snapdragon 8 Elite family chipsets
                         Sound by Bose</p>
-                    <div class="learn_more text-black rounded-2 d-none d-md-block m-2 fs-6 d-flex align-items-center">Learn more</div>
+                    <div
+                        class="learn_more rounded-2 d-block m-2 fs-6 d-flex align-items-center justify-content-center align-self-center">
+                        <p class="text-black text-center m-0 p-2">Learn more</p>
+                    </div>
+                </div>
+                <div class="carousel-caption w-25 h-25 mt-5 d-md-flex d-none flex-column top-0 start-25">
+                    <img class="img-fluid" src="images/carousel_p_2.svg">
+                    <h6 class="fs-6 text-center text-md-start mt-3">UltraPower Ascended</h6>
+                    <p class="fs-6 text-center text-md-start">Snapdragon 8 Elite family chipsets
+                        Sound by Bose</p>
+                    <div
+                        class="learn_more rounded-2 d-block m-2 fs-6 d-flex align-items-center justify-content-center align-self-start">
+                        <p class="text-black text-center m-0 p-2">Learn more</p>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item carousel-item-3">
-                <img src="images/crousel_1_3.webp" class="d-block w-100">
-                <div class="carousel-caption d-flex flex-column align-items-start">
-                    <img class="w-50 h-50" src="images/carousel_p_3.svg">
-                    <p class="fs-6 text-start mt-3">Quantum detail, stunning visuals </p>
-                    <p class="fs-6 text-start">704 zones QD-Mini LED delivering deep contrast and vivid detail</p>
-                    <div class="learn_more text-black rounded-2 d-none d-md-block m-2 fs-6 d-flex align-items-center">Learn more</div>
+                <img src="images/crousel_1_303.jpg" class="d-block crousel_imgs d-md-none">
+                <img src="images/crousel_1_3.webp" class="d-none d-md-block crousel_imgs2">
+                <div class="carousel-caption w-50 h-50 d-flex d-md-none flex-column top-0 start-50 translate-middle-x">
+                    <img class="img-fluid" src="images/carousel_p_3.svg">
+                    <p class="fs-6 text-center text-md-start mt-3">Quantum detail, stunning visuals </p>
+                    <p class="fs-6 text-center text-md-start">704 zones QD-Mini LED delivering deep contrast and vivid
+                        detail</p>
+                    <div
+                        class="learn_more rounded-2 d-block m-2 fs-6 d-flex align-items-center justify-content-center align-self-center">
+                        <p class="text-black text-center m-0 p-2">Learn more</p>
+                    </div>
+                </div>
+                <div class="carousel-caption w-25 h-25 mt-5 d-md-flex d-none flex-column top-0 start-25">
+                    <img class="img-fluid" src="images/carousel_p_3.svg">
+                    <p class="fs-6 text-center text-md-start mt-3">Quantum detail, stunning visuals </p>
+                    <p class="fs-6 text-center text-md-start">704 zones QD-Mini LED delivering deep contrast and vivid
+                        detail</p>
+                    <div
+                        class="learn_more rounded-2 d-block m-2 fs-6 d-flex align-items-center justify-content-center align-self-start">
+                        <p class="text-black text-center m-0 p-2">Learn more</p>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item carousel-item-4 last_slid_carousel_1">
-                <img src="images/crousel_1_4.webp" class="d-block w-100">
-                <div class="carousel-caption d-flex flex-column align-items-start">
-                    <img class="w-50 h-50" src="images/carousel_p_4.svg">
-                    <p class="fs-6 text-start text-black mt-3">It's time to shine</p>
-                    <p class="fs-6 text-start text-black">41mm AMOLED display with a slim, elegant design</p>
-                    <div class="learn_more bg-black rounded-2 d-none d-md-block m-2 fs-6 d-flex align-items-center">Learn more</div>
+                <img src="images/crousel_1_404.jpg" class="d-block crousel_imgs d-md-none">
+                <img src="images/crousel_1_4.webp" class="d-none d-md-block crousel_imgs2">
+                <div class="carousel-caption w-50 h-50 d-flex d-md-none flex-column top-0 start-50 translate-middle-x">
+                    <img class="img-fluid" src="images/carousel_p_4.svg">
+                    <p class="fs-6 text-center text-md-start text-black mt-3">It's time to shine</p>
+                    <p class="fs-6 text-center text-md-start text-black">41mm AMOLED display with a slim, elegant design
+                    </p>
+                    <div
+                        class="learn_more rounded-2 d-block bg-black m-2 fs-6 d-flex align-items-center justify-content-center align-self-center">
+                        <p class="text-center m-0 p-2">Learn more</p>
+                    </div>
+                </div>
+                <div class="carousel-caption w-25 h-25 mt-5 d-md-flex d-none flex-column top-0 start-25">
+                    <img class="img-fluid" src="images/carousel_p_4.svg">
+                    <p class="fs-6 text-center text-md-start text-black mt-3">It's time to shine</p>
+                    <p class="fs-6 text-center text-md-start text-black">41mm AMOLED display with a slim, elegant design
+                    </p>
+                    <div
+                        class="learn_more rounded-2 d-block bg-black m-2 fs-6 d-flex align-items-center justify-content-center align-self-start">
+                        <p class="text-center m-0 p-2">Learn more</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <button class="d-none d-md-block carousel-control-prev" type="button" data-bs-target="#carousel_1" data-bs-slide="prev">
+        <button class="d-none d-md-block carousel-control-prev" type="button" data-bs-target="#carousel_1"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
 
-        <button class="d-none d-md-block carousel-control-next" type="button" data-bs-target="#carousel_1" data-bs-slide="next">
+        <button class="d-none d-md-block carousel-control-next" type="button" data-bs-target="#carousel_1"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
 
-
-    <div class="container-fluid mt-5 px-3">
-        <div class="row products_row pb-2 rounded-1 flex-row flex-md-row">
+    <div class="container-fluid mt-5 px-3 pb-0">
+        <div class="row products_row pb-0 rounded-1 flex-row flex-md-row">
             <div class="col-12 bg-light rounded-top-1">
-                <p class="d-flex justify-content-center h5 mb-4 mt-2">Featured Products</p>
+                <p class="d-flex justify-content-center h5 fw-bolder mb-4 mt-2">Featured Products</p>
                 <table class="w-100">
                     <tr>
                         <td class="text-center p-0"><a
@@ -110,18 +170,27 @@
                     </tr>
                 </table>
             </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid product_container mt-3 px-3">
+        <div class="row products_row pb-2 rounded-1 flex-row flex-md-row">
             <div
-                class="col-12 col-md-6 pe-md-0 bg-light rounded-bottom-1 d-flex flex-column justify-content-center align-items-center">
+                class="col-12 col-md-6 product_col1 pe-md-0 bg-light rounded-bottom-1 d-flex flex-column justify-content-center align-items-center">
                 <div
-                    class="product_img w-100 rounded-start-2 d-flex align-items-center justify-content-center overflow-hidden mt-4">
+                    class="product_img w-100 rounded-start-2 d-flex align-items-center justify-content-center overflow-hidden">
                     <img class="img-fluid" src="images/Products_1.webp">
                 </div>
             </div>
-            <div class="col-12 col-md-6 ps-md-0 bg-light rounded-bottom-1 d-flex flex-column">
-                <div class="product_box1 d-flex justify-content-center align-items-center flex-column mt-md-4">
+            <div class="col-12 col-md-6 product_col1 ps-md-0 bg-light rounded-bottom-1 d-flex flex-column">
+                <div class="product_box1 d-flex justify-content-center align-items-center flex-column ">
                     <p class="mb-1 h6 fw-bolder">The Gold Collection</p>
-                    <p class="">Discover the golden essential that defines your style</p>
-                    <div class="learn_more text-center rounded-2 d-none d-md-block m-2 fs-6 d-flex align-items-center bg-black">Learn more</div>
+                    <p class="mb-md-0">Discover the golden essential that </p>
+                    <p>defines your style</p>
+                    <div
+                        class="learn_more text-center rounded-2 d-none d-md-block m-2 fs-6 d-flex align-items-center bg-black">
+                        Learn more</div>
                 </div>
             </div>
             <div class="col-6 col-md-3 p-0 m-0 d-flex flex-wrap flex-md-row justify-content-between">
@@ -160,15 +229,19 @@
     </div>
     </div>
 
-    <div id="carousel_2" class="carousel slide mt-5 pb-5" data-bs-touch="true" data-bs-ride="carousel">
-        <h6 class="fs-3 fw-bolder mb-5 text-center">Explore Xiaomi</h6>
+    <div id="carousel_2" class="carousel slide carousel2 mt-5 pb-5" data-bs-touch="true" data-bs-ride="carousel">
+        <h6 class="fs-3 fw-bolder mb-5 pt-5 text-center">Explore Xiaomi</h6>
         <div class="carousel-indicators pt-5">
             <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="0"
                 class="active bg-secondary mx-2 d-lg-none"></button>
-            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="1" class="bg-secondary mx-2 d-lg-none"></button>
-            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="2" class="bg-secondary mx-2 d-lg-none"></button>
-            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="3" class="bg-secondary mx-2 d-lg-none"></button>
-            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="4" class="bg-secondary mx-2 d-lg-none"></button>
+            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="1"
+                class="bg-secondary mx-2 d-lg-none"></button>
+            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="2"
+                class="bg-secondary mx-2 d-lg-none"></button>
+            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="3"
+                class="bg-secondary mx-2 d-lg-none"></button>
+            <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="4"
+                class="bg-secondary mx-2 d-lg-none"></button>
         </div>
         <div class="carousel-inner mb-3">
             <div class="carousel-item active">
@@ -177,14 +250,17 @@
                         <img src="images/explore_1.webp" class="d-block w-100 rounded">
                         <div class="expolre_1_p pt-3 rounded-bottom-2">
                             <h6 class="text-center pt-3 px-3 fw-bolder">Xiaomi HyperOS 3</h6>
-                            <p class="text-center d-none d-md-block px-3 mx-lg-5 pb-3">Enhanced user experience and seamless smart connectivity demonstrate the upgrades.</p>
+                            <p class="text-center d-none d-md-block px-3 mx-lg-5 pb-3">Enhanced user experience and
+                                seamless smart connectivity demonstrate the upgrades.</p>
                         </div>
                     </div>
                     <div class="col-4">
                         <img src="images/explore_2.webp" class="d-block w-100 rounded">
                         <div class="explore_2_p pt-3 rounded-bottom-2">
-                            <h6 class="text-center pt-3 px-3 fw-bolder">Xiaomi Q3 2025 adjusted net profit soars 80.9%</h6>
-                            <p class="text-center d-none d-md-block px-3 mx-lg-5 pb-3">Smart EV business achieves positive quarterly income from operations for the first time.</p>
+                            <h6 class="text-center pt-3 px-3 fw-bolder">Xiaomi Q3 2025 adjusted net profit soars 80.9%
+                            </h6>
+                            <p class="text-center d-none d-md-block px-3 mx-lg-5 pb-3">Smart EV business achieves
+                                positive quarterly income from operations for the first time.</p>
                         </div>
                     </div>
                 </div>
@@ -202,7 +278,8 @@
                         <img src="images/explore_4.webp" class="d-block w-100 rounded">
                         <div class="explore_4_p pt-3 rounded-bottom-2">
                             <h6 class="text-center pt-3 px-3 fw-bolder">Your stage, your masterpiece</h6>
-                            <p class="text-center d-none d-md-block px-3 mx-lg-5 pb-3">5X telephoto shots afar, revealing every detail.</p>
+                            <p class="text-center d-none d-md-block px-3 mx-lg-5 pb-3">5X telephoto shots afar,
+                                revealing every detail.</p>
                         </div>
                     </div>
                 </div>
@@ -213,14 +290,16 @@
                         <img src="images/explore_5.webp" class="d-block w-100 rounded">
                         <div class="explore_5_p pt-3 rounded-bottom-2">
                             <h6 class="text-center pt-3 px-3">Mijia Cross Door Refrigerator</h6>
-                            <p class="text-center d-none d-md-block px-3 pb-3">On-demand temperature control for optimal food preservation.	</p>
+                            <p class="text-center d-none d-md-block px-3 pb-3">On-demand temperature control for optimal
+                                food preservation. </p>
                         </div>
                     </div>
                     <div class="col-4">
                         <img src="images/explore_6.webp" class="d-block w-100 rounded">
                         <div class="explore_6_p pt-3 rounded-bottom-2">
                             <h6 class="text-center pt-3 px-3">Xiaomi Robot Vacuum 5 Pro</h6>
-                            <p class="text-center d-none d-md-block px-3 pb-3">Your AI housekeeper for a deeper, smarter, and more efficient cleaning.</p>
+                            <p class="text-center d-none d-md-block px-3 pb-3">Your AI housekeeper for a deeper,
+                                smarter, and more efficient cleaning.</p>
                         </div>
                     </div>
                 </div>
@@ -231,14 +310,16 @@
                         <img src="images/explore_7.webp" class="d-block w-100 rounded">
                         <div class="explore_7_p pt-3 rounded-bottom-2">
                             <h6 class="text-center pt-3 px-3">Xiaomi Renovation 2025</h6>
-                            <p class="text-center d-none d-md-block px-3 pb-3">Join now and win prizes worth over $5,000!</p>
+                            <p class="text-center d-none d-md-block px-3 pb-3">Join now and win prizes worth over
+                                $5,000!</p>
                         </div>
                     </div>
                     <div class="col-4">
                         <img src="images/explore_8.webp" class="d-block w-100 rounded">
                         <div class="explore_8_p pt-3 rounded-bottom-2">
                             <h6 class="text-center pt-3">Xiaomi Imagery Awards 2025</h6>
-                            <p class="text-center d-none d-md-block px-3 pb-3">Submit your best shots to win $10,000!</p>
+                            <p class="text-center d-none d-md-block px-3 pb-3">Submit your best shots to win $10,000!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -249,14 +330,16 @@
                         <img src="images/explore_9.webp" class="d-block w-100 rounded">
                         <div class="explore_9_p pt-3 rounded-bottom-2">
                             <h6 class="text-center mt-3 px-3">How Xiaomi took on the world’s toughest track</h6>
-                            <p class="text-center mt-3 px-3">Xiaomi SU7 Ultra proved itself at Nürburgring — with people, engineering and production-ready craft.</p>
+                            <p class="text-center d-none d-md-block mt-3 px-3">Xiaomi SU7 Ultra proved itself at Nürburgring — with
+                                people, engineering and production-ready craft.</p>
                         </div>
                     </div>
                     <div class="col-4">
                         <img src="images/explore_10.webp" class="d-block w-100 rounded">
                         <div class="explore_10_p pt-3 rounded-bottom-2">
                             <h6 class="text-center mt-3 px-3">Smarter vision starts here</h6>
-                            <p class="text-center mt-3 px-3">Imagine glasses that think, adapt and immerse you — Xiaomi's first pair of AI glasses redefine daily living.</p>
+                            <p class="text-center d-none d-md-block mt-3 px-3">Imagine glasses that think, adapt and immerse you —
+                                Xiaomi's first pair of AI glasses redefine daily living.</p>
                         </div>
                     </div>
                 </div>
@@ -276,11 +359,11 @@
 
 
 
-    <div class="container-fluid support_container mt-4 mb-4 pt-5 d-flex justify-content-center align-items-center flex-column">
+    <div
+        class="container-fluid support_container mt-4 mb-4 pt-5 d-flex justify-content-center align-items-center flex-column">
         <h6 class="text-center mb-3 fw-bolder">Xiaomi Support</h6>
         <div class="row flex-row justify-content-start justify-content-md-start">
-            <div
-                class="col-6 col-md-3 d-flex flex-wrap justify-content-between">
+            <div class="col-6 col-md-3 d-flex flex-wrap justify-content-between">
                 <div
                     class="support1 w-100 bg-light rounded-1 d-flex justify-content-center align-items-center flex-column p-3 mt-2">
                     <i class="bi bi-headset fs-1"></i>
@@ -304,8 +387,7 @@
                     <p class="text-center">Find and download your Xiaomi product user guide</p>
                 </div>
             </div>
-            <div
-                class="col-6 col-md-3 d-flex flex-wrap justify-content-between">
+            <div class="col-6 col-md-3 d-flex flex-wrap justify-content-between">
                 <div
                     class="support4 w-100 bg-light rounded-1 d-flex justify-content-center align-items-center flex-column p-3 mt-2">
                     <i class="bi bi-question-square fs-1"></i>
@@ -318,8 +400,8 @@
 
 
     <div class="container-fluid footer_container m-0 pt-3 px-4">
-        <div class="row flex-column">
-            <div class="col-12 footer_col">
+        <div class="row flex-column flex-md-row order-lg-1">
+            <div class="col-12 col-md-3 footer_col px-md-0">
                 <h6 class="text-start fw-bolder">Follow Xiaomi</h6>
                 <div class="footer_i mt-3 mb-3">
                     <i class="bi bi-facebook mx-2 text-light"></i>
@@ -328,6 +410,8 @@
                     <i class="bi bi-instagram mx-2 text-light"></i>
                     <i class="bi bi-android mx-2 text-light"></i>
                 </div>
+            </div>    
+            <div class="col-12 col-md-5 footer_col px-md-0 ms-md-3">
                 <p class="text-start fw-semibold fs-6 mb-2">Enter your email address to subscribe to our newsletters
                 </p>
                 <div class="btn-group w-100">
@@ -342,10 +426,10 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-12 border-bottom border-light d-none d-md-block d-lg-none my-4 order-md-0"></div>
         </div>
-        <hr class="footer_hr">
-        <div class="row flex-row">
-            <div class="col-md-4 p-0 footer_col my-3 d-flex">
+        <div class="row flex-row d-none d-md-flex order-lg-0">
+            <div class="col-md-4 col-lg-2 p-0 footer_col my-3 d-flex">
                 <table class="d-flex flex-row flex-nowrap">
                     <tr class="d-flex flex-column w-100 ms-2">
                         <td class="h6 fw-bolder footer_container text-white my-2">SUPPORT</td>
@@ -361,7 +445,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-md-4 p-0 footer_col my-3">
+            <div class="col-md-4 col-lg-2 p-0 footer_col my-3">
                 <table class="d-flex flex-row flex-nowrap">
                     <tr class="d-flex flex-column w-100 ms-2">
                         <td class="h6 fw-bolder footer_container text-white my-2">ABOUT US</td>
@@ -379,7 +463,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-md-4 p-0 footer_col my-3">
+            <div class="col-md-4 col-lg-2 p-0 footer_col my-3">
                 <table class="d-flex flex-row flex-nowrap">
                     <tr class="d-flex flex-column w-100 ms-2">
                         <td class="h6 fw-bolder footer_container text-white my-2">XIAOMI PROJECTS</td>
@@ -390,14 +474,14 @@
                 </table>
             </div>
         </div>
-        <div class="row flex-column">
-            <div class="col-12 border-bottom border-light d-none d-md-block my-4 order-md-0"></div>
-            <div class="col-12 footer_col mt-3 order-md-3 d-md-flex flex-md-row justify-content-md-between">
+        <div class="row flex-column flex-lg-row pb-lg-4">
+            <div class="col-12 border-bottom border-light d-block my-4 order-1 order-md-0"></div>
+            <div class="col-12 col-lg-7 footer_col mt-3 mt-lg-0 order-0 order-md-3 d-md-flex flex-md-row justify-content-md-between">
                 <p>Cookie Policy | Sitemap</p>
                 <p>Global / English <i class="bi bi-globe-central-south-asia ms-3"></i></p>
             </div>
-            <div class="col-12 border-bottom order-md-2 border-light d-none d-md-block my-4"></div>
-            <div class="col-12 order-md-1">
+            <div class="col-12 border-bottom order-md-2 border-light d-none d-md-block d-lg-none my-4"></div>
+            <div class="col-12 col-lg-5 order-2 order-md-1 order-lg-1">
                 <p class="last_footer_p">Copyright © 2010 - 2025 Xiaomi. All Rights Reserved</p>
             </div>
         </div>
