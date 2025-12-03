@@ -214,6 +214,19 @@ body {
 }
 
 @media all and (min-width:992px) {
+    .crousel_imgs2 {
+        min-width: 1500px !important;
+        min-height: 360px;
+    }
+
+    .product_col1{
+        height: 348px;
+    }
+
+    .product_img{
+        height: 348px;
+    }
+
     .last_footer_p {
         color: white !important;
     }
